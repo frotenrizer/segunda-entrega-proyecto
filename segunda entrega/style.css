@@ -1,0 +1,219 @@
+h1,h2,h3,h4,h5, button, .amiibo-name{
+    font-family: 'Bitter', serif;
+
+}
+#navbar{
+    z-index: 1;
+}
+
+#ribbon{
+    background-color: rgb(219, 26, 26);
+    background-image: repeating-linear-gradient(45deg, transparent, transparent 25px, rgba(131, 21, 21, 0.5) 25px, rgba(131, 21, 21, 0.5) 40px);
+}
+#ribbon::after{
+    content: '';
+    background-color: transparent;
+    display: block;
+    height: 20px;
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+    left: auto;
+    margin-top: -40px;
+}
+#separator-ribbon{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+}
+#separator-ribbon .content{
+    width: 150%;
+    height: 150px;
+    margin-left: -25%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+#birthday{
+    background-color: rgb(219, 26, 26);
+    position: relative;
+    margin-top: -20px;
+    z-index: 10;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+
+#birthday img{
+    position: relative;
+    margin-top: -30px;
+}
+
+#games{
+    background: rgb(255,255,255);
+    background: url(../img/bg-02.png),  linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(99,196,255,1) 57%);
+    background-repeat: repeat-x;
+    background-size: 75%;
+    margin-top: -20px;
+}
+
+.card-border{
+    border: solid 10px white;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all ease-out 0.2s;
+}
+.card-border:hover{
+    transform: scale(1.05);
+}
+
+.text-shadow{
+    text-shadow: 0 3px 3px rgba(0,0,0,0.6);
+}
+#separator-amiibos{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+}
+#separator-amiibos .content{
+    background: url(../img/bg-03.png);
+    width: 110%;
+    height: 100px;
+    margin-left: -5%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+#separator-amiibos-footer{
+    height: 20vw;
+}
+
+
+#amiibos{
+    background: url(../img/bg-01.png),url(../img/bg-03.png);
+    background-repeat: no-repeat, repeat;
+    background-position: bottom center, center center;
+    background-size: 100%, auto;
+}
+.amiibo{
+    cursor: pointer;
+    transition: all ease-out 0.2s;
+}
+.amiibo:hover{
+    transform: scale(1.05);
+}
+
+.amiibo-name{
+    background-color: rgba(0,0,0,0.4);
+    color: white;
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 15px;
+}
+
+#foro-padre{   
+    background: url(../img/bg-04.png);
+    background-color: rgb(255, 255, 219);
+    background-size: 40px 40px;
+}
+
+
+  
+  .logo span {
+    color: #B70E21;
+  }
+  
+  .contact-wrapper {
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+  }
+  
+  .contact-wrapper > * {
+    padding: 1em;
+  }
+  
+  .contact-form {
+    background: #f4f2f4;
+  }
+  
+  .contact-form form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .contact-form form label {
+    display: block;
+  }
+  
+  .contact-form form p {
+    margin: 0;
+    padding: 1em;
+  }
+  
+  .contact-form form .block {
+    grid-column: 1 / 3;
+  }
+  
+  .contact-form form button,
+  .contact-form form input,
+  .contact-form form textarea {
+    width: 100%;
+    padding: .7em;
+    border: none;
+    background: none;
+    outline: 0;
+    color: rgb(0, 0, 0);
+    border-bottom: 1px solid #d63031;
+  }
+  
+  .contact-form form button {
+    background: #8c04a1;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1em;
+  }
+  
+  .contact-form form button:hover,
+  .contact-form form button:focus {
+    background: #efeeee;
+    color: #fff;
+    transition: background-color 1s ease-out;
+    outline: 0;
+  }
+  
+  /* CONTACT INFO */
+  .contact-info {
+    background: rgb(240, 239, 238);
+  }
+  
+  .contact-info h4, .contact-info ul, .contact-info p {
+    text-align: center;
+    margin: 0 0 1rem 0;
+  }
+  
+  /* LARGE SIZE */
+  @media(min-width: 700px) {
+  
+      
+    }
+    .contact-wrapper {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        color: rgb(14, 13, 14);
+    }
+    .contact-wrapper   {
+        padding: 2em;
+    }
+    .contact-info h4,
+    .contact-info ul,
+    .contact-info p {
+        text-align: left;
+    }
+  
+   
+  
+#footer{
+    background: url(../img/bg-04.png);
+    background-color: rgb(82, 0, 121);
+    background-size: 50px 50px;
+}
